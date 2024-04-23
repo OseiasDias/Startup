@@ -1,0 +1,728 @@
+@charset "UTF-8";
+
+:root {
+    --primary: #06A3DA;
+    --secondary: #34AD54;
+    --light: #EEF9FF;
+    --dark: #091E3E;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links-socias {
+
+    height: 40px;
+    padding-top: 2px;
+}
+
+.links-socias a {
+
+    font-size: 1px;
+    padding: 12px;
+}
+
+.links-endereco {
+    padding-top: 2px;
+}
+
+.navbar-brand {
+    color: #06A3DA !important;
+}
+
+.links-endereco small {
+    margin: 4px 10px;
+
+}
+
+.links-endereco small a {
+    text-decoration: none;
+    color: var(--light);
+}
+
+.barra-top {
+    height: 40px !important;
+    background-color: var(--dark);
+    line-height: 30px;
+
+}
+
+.navbar-brand {
+    font-size: 2.3em;
+    font-weight: bold;
+    color: var(--dark) !important;
+
+}
+
+/*MENU*/
+
+.navbar {
+    border-bottom: .3px solid var(--light);
+    z-index: 100;
+
+
+}
+
+.btn-brand {
+    background-color: var(--primary);
+    color: var(--light);
+    padding: 8px 35px;
+    border-radius: 0;
+    font-weight: 600 !important;
+}
+
+.centro .btn {
+    border-radius: 0 !important;
+    padding: 15px 55px;
+    font-weight: 600;
+}
+
+/*SLIDER*/
+.fundo {
+    top: -85px;
+    position: relative;
+
+}
+
+.slider1 {
+    background: linear-gradient(#091e3eb3, #091e3eb0), url('../img/carousel-1.jpg');
+    min-height: 100vh;
+    background-position: top;
+    background-size: cover;
+}
+
+.slider2 {
+    background: linear-gradient(#091e3eb3, #091e3eb0), url('../img/carousel-2.jpg');
+    min-height: 100vh;
+    background-position: top;
+    background-size: cover;
+}
+
+
+.centro {
+    margin-top: 200px !important;
+    color: var(--light);
+    width: 80% !important;
+    margin: auto;
+}
+
+.centro h1 {
+    font-size: 5em !important;
+    font-weight: bold;
+
+}
+
+.slider {
+    top: -83px;
+    position: relative;
+
+}
+
+.owl-next,
+.owl-prev {
+    font-size: 4em !important;
+    font-weight: 0 !important;
+    top: 45% !important;
+    position: absolute !important;
+    color: #ffffff4f !important;
+    background-color: transparent !important;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+    color: var(--light) !important;
+}
+
+.owl-next {
+    right: 0 !important;
+    position: absolute;
+}
+
+.owl-prev {
+    left: 0 !important;
+    position: absolute;
+}
+
+/*PONTOS*/
+
+.vazia {
+
+    width: 70px;
+    height: 60px;
+    background-color: var(--light);
+}
+
+.cheia h6 {
+    font-size: 1.5em;
+
+}
+
+.unicaCor {
+    background-color: var(--primary);
+
+}
+
+.mesmaCor {
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+.cheia h2 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+
+.mesmaDiv {
+    padding: 20px 30px 20px 50px !important;
+    box-shadow: 0 8px 20px #091e3e54;
+
+}
+
+.div-unica {
+    background-color: var(--light) !important;
+    color: var(--primary) !important;
+}
+
+
+
+
+/*ABOUT*/
+
+.about h3 {
+    color: var(--primary);
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+
+.about h1 {
+    font-weight: 700;
+    color: var(--dark);
+    margin: 15px 0 30px 0;
+}
+
+.about p {
+    text-align: justify;
+    color: #000000b5;
+}
+
+.tabelinha {
+    text-align: left;
+    margin: 20px 0;
+
+}
+
+.tabelinha td {
+    border: none;
+    font-size: 1.1em;
+    color: var(--dark);
+    font-weight: 600;
+}
+
+.div-lateral .vazia {
+    background-color: var(--primary);
+}
+
+.div-lateral {
+    margin-bottom: 30px;
+}
+
+
+/*AULA*/
+
+.aula {
+    margin: 50px 0;
+}
+
+.aula h5 {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.aula h1 {
+    color: var(--dark);
+    font-weight: 600;
+    margin: 15px;
+}
+
+.aula h6 {
+    color: var(--dark);
+    font-weight: 600;
+}
+
+.aula p {
+    text-align: justify;
+    color: #091e3eba;
+}
+
+.aula .vazia {
+    background-color: var(--primary) !important;
+}
+
+.aula .d-block {
+    margin: 20px 0 !important;
+}
+
+/*============*/
+
+.espacamento {
+    padding: 45px 32px !important;
+    background-color: #EEF9FF;
+    margin: 10px 0;
+}
+
+.espacamento .fw-bold {
+    color: var(--light);
+}
+
+.cartaz .vazia {
+    margin: 10px auto !important;
+
+}
+
+.cartaz {
+    margin: 100px 0 50px 0;
+}
+
+.cartaz h1 {
+    color: var(--dark);
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.cartaz .hcinco {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+
+/*PLANOS*/
+
+.planos {
+    margin: 100px 0 50px 0;
+    position: relative;
+}
+
+.planos h5 {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.planos h1 {
+    color: var(--dark);
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.tabela-plano {
+    border-spacing: 0;
+    margin: 0 !important;
+    padding: 40px !important;
+    background-color: #EEF9FF;
+}
+
+.tabela-plano td,
+th {
+    border: none !important;
+    padding: 15px 40px 15px 50px !important;
+
+}
+
+.tabela-plano th {
+    padding: 40px 50px 20px 50px !important;
+    color: var(--primary);
+    font-size: 1.3em;
+}
+
+.tabela-plano span {
+    color: #091e3ec6 !important;
+    font-size: .7em !important;
+    text-transform: uppercase;
+    font-weight: normal;
+
+}
+
+
+.tabela-plano tr:nth-child(2) h2 {
+    font-size: 3em;
+    font-weight: bold;
+    color: var(--dark)
+}
+
+.tabela-plano tr:nth-child(2) h2 span {
+    font-size: .3em !important;
+    font-weight: 600;
+    color: var(--dark);
+
+}
+
+.tabela-plano th {
+    border-bottom: .5px solid #dddddd !important;
+}
+
+.especifico-span {}
+
+.uni-tabella {
+    box-shadow: 0 8px 20px #091e3e54;
+}
+
+.tabellas {
+    background-color: var(--light);
+}
+
+.tabellas sup {
+    font-size: .5em;
+}
+
+.btn-form {
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 17px 0;
+}
+
+.btn-form:hover {
+    color: var(--light);
+}
+
+.formullario {
+    background-color: var(--primary);
+}
+
+.contactando {
+    margin-top: 200px;
+}
+
+
+.contactando h5 {
+    color: var(--primary);
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.contactando h1 {
+    color: var(--dark);
+    font-weight: bold !important;
+    font-size: 2.5em;
+}
+
+.contactando .div-lateral {
+    margin: 50px 0 0 0;
+}
+
+.contactando .div-lateral h6 {
+    color: var(--dark);
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.contactando .div-lateral h3 {
+    color: var(--primary);
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.contactando .div-lateral .d-flex {
+    margin: 50px 0;
+}
+
+.mudar-cor {
+    color: #000000a3;
+}
+
+/*TEAM*/
+
+.team figcaption {
+    background-color: #EEF9FF !important;
+    padding: 20px;
+
+}
+
+.team figcaption h3 {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+
+.team figcaption p {
+    color: #808080 !important;
+}
+
+.centrAl {
+    position: relative;
+}
+
+
+.links-sociaas {
+    background-color: #091e3e89;
+    width: 100%;
+    height: 100% !important;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    transition: all .4s ease-in;
+
+}
+.links-sociaas:hover{
+    opacity: 1;
+}
+
+.overlay {
+
+    width: 100%;
+    height: 100% !important;
+    top: 0;
+    position: relative;
+
+}
+
+
+.links-sociaas a {
+    padding: 18px;
+
+    display: inline-block;
+    background-color: var(--primary);
+    font-size: 2px;
+    top: 50%;
+    position: relative;
+
+}
+
+.links-sociaas a:hover {
+    background-color: #06b5f5;
+}
+
+.arranjo {
+    margin-bottom: 200px;
+}
+
+/*BLOG*/
+
+.blog{
+    position: relative;
+    margin-bottom: 150px;
+}
+.blog4 h5{
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 30px;
+} 
+
+.blog4 h1{
+    color: var(--dark);
+    font-weight: bold;
+}
+
+.mancha{
+    background-color: var(--primary);
+    padding: 10px 30px;
+    top: 60px;
+    color: #ffffff;
+    position: relative;
+}
+.centrol figcaption{
+    background-color: #EEF9FF;
+    padding: 40px 20px;
+}
+.centrol figcaption a{
+    text-decoration: none;
+    color: var(--primary);
+}
+.centrol figcaption h4{
+    color: var(--dark);
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.centrol figcaption span{
+    color: #808080;
+    font-size: .9em;
+}
+.centrol figcaption p{
+    color: #808080;
+}
+/*FOOTER*/
+
+.footer-all{
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.footer-all li{
+    list-style: none;
+    padding: 5px 0;
+}
+
+.footer-all li a{
+    text-decoration: none;
+    color: var(--light) !important;
+}
+
+.fim-formulario{
+    background-color: var(--primary);
+    padding: 50px 30px;
+    text-align: justify;
+    height: 100%;
+    
+}
+
+.fim-formulario h2{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.fim-formulario .btn-brand{
+    background-color: var(--dark) !important;
+    border-color: var(--dark);
+}
+
+.divs{
+    margin-top:60px;
+    padding-left: 30px !important;
+}
+
+.divs li:hover{
+    font-size: 1.1em;
+}
+
+.links-sociaass a{
+
+    border: 1px solid #06A3DA;
+    background-color: var(--primary);
+    padding: 15px;
+    font-size: 1px;
+    margin: 2px;
+    transition: all .3s ease-in-out;
+
+}
+
+.links-sociaass a:hover{
+    background-color: #ffffffc1;
+}
+.footer-bottom{
+    background-color: #04132a;
+    padding: 20px 0 5px 0;
+    margin-bottom: 0;
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 990px) {
+    .mesmaDiv {
+        top: -150px;
+        position: relative;
+        z-index: 100;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .navbar {
+
+        background-color: transparent !important;
+
+    }
+
+    .navbar-brand {
+        font-size: 2.3em;
+        font-weight: bold;
+        color: var(--light) !important;
+
+    }
+
+
+    .navbar .nav-link {
+        color: var(--light) !important;
+        font-weight: 600 !important;
+    }
+
+    .navbar .nav-link:hover {
+        color: var(--primary) !important;
+    }
+
+
+}
+
+@media (max-width:992px) {
+
+    .barra-top {
+        display: none;
+    }
+
+    .centro {
+        margin-top: 200px !important;
+
+        width: 90% !important;
+        margin: auto;
+    }
+
+    .centro h1 {
+        font-size: 4em !important;
+        font-weight: bold;
+
+    }
+}
+
+@media (max-width:768px) {
+
+
+    .centro {
+        margin-top: 230px !important;
+
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .centro h1 {
+        font-size: 3.5em !important;
+        font-weight: bold;
+
+    }
+}
+
+@media (max-width:576px) {
+
+
+    .centro {
+        margin-top: 230px !important;
+
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .centro h1 {
+        font-size: 3em !important;
+        font-weight: bold;
+
+    }
+
+    .centro .btn {
+        border-radius: 0 !important;
+        padding: 12px 45px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width:450px) {
+    .centro .btn {
+        margin: 8px 0;
+    }
+
+    .centro h1 {
+        font-size: 2em !important;
+    }
+}
